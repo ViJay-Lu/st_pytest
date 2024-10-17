@@ -19,3 +19,8 @@ vec:
     - 语文
     - 数学
     - 英语
+
+mobile_params:
+  #shouji,appkey
+  - [13425657884,adgadfgdghf3]
+  - [15896587456,564564gdsgff]
