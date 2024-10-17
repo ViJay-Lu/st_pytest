@@ -1,4 +1,3 @@
-import pytest
 import requests
 
 #对不在类中的测试函数生效

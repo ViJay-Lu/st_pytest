@@ -1,0 +1,21 @@
+
+person:
+  "name": 张三
+  "age": 10
+
+
+persons:
+  - 张三
+  - 李四
+  - 王麻子
+
+person_info:
+  - "name": 王五
+    "age": 19
+
+
+vec:
+  -
+    - 语文
+    - 数学
+    - 英语
