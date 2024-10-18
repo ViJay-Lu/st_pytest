@@ -1,6 +1,7 @@
 import pytest
 import requests
 
+#测试类不能有init方法
 class TestSetupClass:
     # 在类中前后执行一次
     def setup_class(self):

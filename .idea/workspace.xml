@@ -5,31 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c2bb4e6-c9a6-42dc-b99d-7f9cb8cb25a0" name="更改" comment="add st_pytest code">
-      <change afterPath="$PROJECT_DIR$/read_config_file/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcase/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcase/test_by_requests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcase/test_fixture/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcase/test_multi-process/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcase/test_multi-process/test_process.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcase/test_one/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcase/test_parametrize/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcase/test_setup_class/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcase/test_setup_function/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcase/test_setup_method/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcase/test_setup_module/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/st_pytest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/st_pytest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/all.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/read_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/read_config_file/read_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_by_requests/test_by_qequests.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_by_requests/test_by_qequests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_fixture/test_fixture.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_fixture/test_fixture.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_one/test_one.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_one/test_one.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_parametrize/test_parametrize.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_parametrize/test_parametrize.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_parametrize/test_parametrize_by_requests.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_parametrize/test_parametrize_by_requests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_setup_class/test_setup_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_setup_class/test_setup_class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_setup_function/test_setup_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_setup_function/test_setup_function.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_setup_method/test_setup_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_setup_method/test_setup_method.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_setup_module/test_setup_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_setup_module/test_setup_module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/test_one/test_one.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_one/test_one.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/test_setup_class/test_setup_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_setup_class/test_setup_class.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,32 +49,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python 测试.pytest (test_by_qequests.py 内).executor": "Run",
-    "Python 测试.pytest (test_fixture.py 内).executor": "Run",
-    "Python 测试.pytest (test_one.py 内).executor": "Run",
-    "Python 测试.pytest (test_parametrize.py 内).executor": "Run",
-    "Python 测试.pytest (test_parametrize_by_requests.py 内).executor": "Run",
-    "Python 测试.pytest (test_process.py 内).executor": "Run",
-    "Python 测试.pytest (test_setup_class.py 内).executor": "Run",
-    "Python 测试.pytest (test_setup_function.py 内).executor": "Run",
-    "Python 测试.pytest (test_setup_method.py 内).executor": "Run",
-    "Python 测试.pytest (test_setup_module.py 内).executor": "Run",
-    "Python.read_data.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/workspace/py/st_pytest/test_setup_method",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python 测试.pytest (test_by_qequests.py 内).executor&quot;: &quot;Run&quot;,
+    &quot;Python 测试.pytest (test_fixture.py 内).executor&quot;: &quot;Run&quot;,
+    &quot;Python 测试.pytest (test_one.py 内).executor&quot;: &quot;Run&quot;,
+    &quot;Python 测试.pytest (test_parametrize.py 内).executor&quot;: &quot;Run&quot;,
+    &quot;Python 测试.pytest (test_parametrize_by_requests.py 内).executor&quot;: &quot;Run&quot;,
+    &quot;Python 测试.pytest (test_process.py 内).executor&quot;: &quot;Run&quot;,
+    &quot;Python 测试.pytest (test_setup_class.py 内).executor&quot;: &quot;Run&quot;,
+    &quot;Python 测试.pytest (test_setup_function.py 内).executor&quot;: &quot;Run&quot;,
+    &quot;Python 测试.pytest (test_setup_method.py 内).executor&quot;: &quot;Run&quot;,
+    &quot;Python 测试.pytest (test_setup_module.py 内).executor&quot;: &quot;Run&quot;,
+    &quot;Python.all.executor&quot;: &quot;Run&quot;,
+    &quot;Python.read_data.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/workspace/py/st_pytest/test_setup_method&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\workspace\py\st_pytest\test_setup_method" />
@@ -132,7 +113,8 @@
       <workItem from="1729145402875" duration="259000" />
       <workItem from="1729145742622" duration="3000" />
       <workItem from="1729146039014" duration="6486000" />
-      <workItem from="1729214047375" duration="6924000" />
+      <workItem from="1729214047375" duration="9006000" />
+      <workItem from="1729231517909" duration="2722000" />
     </task>
     <task id="LOCAL-00001" summary="add st_pytest code">
       <option name="closed" value="true" />
@@ -166,7 +148,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729151888138</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add st_pytest code">
+      <option name="closed" value="true" />
+      <created>1729221362415</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729221362415</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,16 +167,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="add st_pytest code" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/st_pytest$read_data.coverage" NAME="read_data 覆盖结果" MODIFIED="1729216566278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/read_config_file" />
+    <SUITE FILE_PATH="coverage/st_pytest$pytest__test_fixture_py__.coverage" NAME="pytest (test_fixture.py 内) 覆盖结果" MODIFIED="1729144673304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_fixture" />
+    <SUITE FILE_PATH="coverage/st_pytest$pytest__test_setup_class_py__.coverage" NAME="pytest (test_setup_class.py 内) 覆盖结果" MODIFIED="1729130369361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_setup_class" />
+    <SUITE FILE_PATH="coverage/st_pytest$pytest__test_setup_function_py__.coverage" NAME="pytest (test_setup_function.py 内) 覆盖结果" MODIFIED="1729134195413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_setup_function" />
     <SUITE FILE_PATH="coverage/st_pytest$pytest__test_process_py__.coverage" NAME="pytest (test_process.py 内) 覆盖结果" MODIFIED="1729219322814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/test_multi-process" />
     <SUITE FILE_PATH="coverage/st_pytest$pytest__test_setup_method_py__.coverage" NAME="pytest (test_setup_method.py 内) 覆盖结果" MODIFIED="1729130521692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_setup_method" />
-    <SUITE FILE_PATH="coverage/st_pytest$pytest__test_one_py__.coverage" NAME="pytest (test_one.py 内) 覆盖结果" MODIFIED="1729130104059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_one" />
-    <SUITE FILE_PATH="coverage/st_pytest$pytest__test_fixture_py__.coverage" NAME="pytest (test_fixture.py 内) 覆盖结果" MODIFIED="1729144673304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_fixture" />
     <SUITE FILE_PATH="coverage/st_pytest$pytest__test_parametrize_py__.coverage" NAME="pytest (test_parametrize.py 内) 覆盖结果" MODIFIED="1729149732219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_parametrize" />
-    <SUITE FILE_PATH="coverage/st_pytest$read_data.coverage" NAME="read_data 覆盖结果" MODIFIED="1729216566278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/read_config_file" />
+    <SUITE FILE_PATH="coverage/st_pytest$pytest__test_one_py__.coverage" NAME="pytest (test_one.py 内) 覆盖结果" MODIFIED="1729233723485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/test_one" />
+    <SUITE FILE_PATH="coverage/st_pytest$all.coverage" NAME="all 覆盖结果" MODIFIED="1729231935827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/st_pytest$pytest__test_setup_module_py__.coverage" NAME="pytest (test_setup_module.py 内) 覆盖结果" MODIFIED="1729130012492" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_setup_module" />
     <SUITE FILE_PATH="coverage/st_pytest$pytest__test_parametrize_by_requests_py__.coverage" NAME="pytest (test_parametrize_by_requests.py 内) 覆盖结果" MODIFIED="1729216372733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_parametrize" />
-    <SUITE FILE_PATH="coverage/st_pytest$pytest__test_setup_class_py__.coverage" NAME="pytest (test_setup_class.py 内) 覆盖结果" MODIFIED="1729130369361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_setup_class" />
     <SUITE FILE_PATH="coverage/st_pytest$pytest__test_by_qequests_py__.coverage" NAME="pytest (test_by_qequests.py 内) 覆盖结果" MODIFIED="1729130073177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_by_requests" />
-    <SUITE FILE_PATH="coverage/st_pytest$pytest__test_setup_function_py__.coverage" NAME="pytest (test_setup_function.py 内) 覆盖结果" MODIFIED="1729134195413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_setup_function" />
   </component>
 </project>
