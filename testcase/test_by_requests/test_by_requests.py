@@ -29,8 +29,8 @@ def test_req_post():
 ============================= test session starts =============================
 collecting ... collected 2 items
 
-test_by_qequests.py::test_req_get <- test_by_qequests\test_by_qequests.py 
-test_by_qequests.py::test_req_post <- test_by_qequests\test_by_qequests.py 
+test_by_requests.py::test_req_get <- test_by_qequests\test_by_requests.py 
+test_by_requests.py::test_req_post <- test_by_qequests\test_by_requests.py 
 
 ============================== 2 passed in 0.76s ==============================
 PASSED [ 50%]PASSED [100%]
