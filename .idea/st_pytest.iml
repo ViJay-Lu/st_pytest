@@ -10,6 +10,21 @@
   <component name="PackageRequirementsSettings">
     <option name="requirementsPath" value="" />
   </component>
+  <component name="PyNamespacePackagesService">
+    <option name="namespacePackageFolders">
+      <list>
+        <option value="$MODULE_DIR$/testcase/test_by_requests" />
+        <option value="$MODULE_DIR$/testcase/test_fixture" />
+        <option value="$MODULE_DIR$/testcase/test_one" />
+        <option value="$MODULE_DIR$/testcase/test_parametrize" />
+        <option value="$MODULE_DIR$/testcase/test_setup_class" />
+        <option value="$MODULE_DIR$/testcase/test_setup_function" />
+        <option value="$MODULE_DIR$/testcase/test_setup_method" />
+        <option value="$MODULE_DIR$/testcase/test_setup_module" />
+        <option value="$MODULE_DIR$/config" />
+      </list>
+    </option>
+  </component>
   <component name="TestRunnerService">
     <option name="PROJECT_TEST_RUNNER" value="py.test" />
   </component>

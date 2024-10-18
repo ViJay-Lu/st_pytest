@@ -33,6 +33,6 @@ import yaml
  'person_info': [{'name': '王五', 'age': 19}], 'vec': [['语文', '数学', '英语']]}
 """
 def read_data(args):
-    fd = open("E:\workspace\py\st_pytest\config\data.yaml",encoding="utf-8")
+    fd = open("E:\workspace\py\st_pytest\config\data.yaml", encoding="utf-8")
     data = yaml.safe_load(fd)
     return data[args]
