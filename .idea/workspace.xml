@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c2bb4e6-c9a6-42dc-b99d-7f9cb8cb25a0" name="更改" comment="add st_pytest code">
-      <change afterPath="$PROJECT_DIR$/testcase/all.py" afterDir="false" />
+    <list default="true" id="4c2bb4e6-c9a6-42dc-b99d-7f9cb8cb25a0" name="更改" comment="rename test_by_qequests.py to test_by_requests.py">
+      <change afterPath="$PROJECT_DIR$/testcase/test_setup/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/test_setup/test_setup.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/test_one/test_one.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_one/test_one.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/test_setup_class/test_setup_class.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_setup_class/test_setup_class.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,33 +48,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python 测试.pytest (test_by_qequests.py 内).executor&quot;: &quot;Run&quot;,
-    &quot;Python 测试.pytest (test_fixture.py 内).executor&quot;: &quot;Run&quot;,
-    &quot;Python 测试.pytest (test_one.py 内).executor&quot;: &quot;Run&quot;,
-    &quot;Python 测试.pytest (test_parametrize.py 内).executor&quot;: &quot;Run&quot;,
-    &quot;Python 测试.pytest (test_parametrize_by_requests.py 内).executor&quot;: &quot;Run&quot;,
-    &quot;Python 测试.pytest (test_process.py 内).executor&quot;: &quot;Run&quot;,
-    &quot;Python 测试.pytest (test_setup_class.py 内).executor&quot;: &quot;Run&quot;,
-    &quot;Python 测试.pytest (test_setup_function.py 内).executor&quot;: &quot;Run&quot;,
-    &quot;Python 测试.pytest (test_setup_method.py 内).executor&quot;: &quot;Run&quot;,
-    &quot;Python 测试.pytest (test_setup_module.py 内).executor&quot;: &quot;Run&quot;,
-    &quot;Python.all.executor&quot;: &quot;Run&quot;,
-    &quot;Python.read_data.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/workspace/py/st_pytest/test_setup_method&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python 测试.pytest (test_by_qequests.py 内).executor": "Run",
+    "Python 测试.pytest (test_fixture.py 内).executor": "Run",
+    "Python 测试.pytest (test_one.py 内).executor": "Run",
+    "Python 测试.pytest (test_parametrize.py 内).executor": "Run",
+    "Python 测试.pytest (test_parametrize_by_requests.py 内).executor": "Run",
+    "Python 测试.pytest (test_process.py 内).executor": "Run",
+    "Python 测试.pytest (test_setup.py 内).executor": "Run",
+    "Python 测试.pytest (test_setup_class.py 内).executor": "Run",
+    "Python 测试.pytest (test_setup_function.py 内).executor": "Run",
+    "Python 测试.pytest (test_setup_method.py 内).executor": "Run",
+    "Python 测试.pytest (test_setup_module.py 内).executor": "Run",
+    "Python 测试.test_setup.TestSetup 的 pytest.executor": "Run",
+    "Python.all.executor": "Run",
+    "Python.read_data.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/workspace/py/st_pytest/test_setup_method",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\workspace\py\st_pytest\test_setup_method" />
@@ -90,6 +91,31 @@
       <recent name="E:\workspace\py\st_pytest\.venv" />
       <recent name="E:\workspace\py\st_pytest\test_one" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="test_setup.TestSetup 的 pytest" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="st_pytest" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase/test_setup" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_setup.TestSetup&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python 测试.test_setup.TestSetup 的 pytest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -114,7 +140,7 @@
       <workItem from="1729145742622" duration="3000" />
       <workItem from="1729146039014" duration="6486000" />
       <workItem from="1729214047375" duration="9006000" />
-      <workItem from="1729231517909" duration="2722000" />
+      <workItem from="1729231517909" duration="5875000" />
     </task>
     <task id="LOCAL-00001" summary="add st_pytest code">
       <option name="closed" value="true" />
@@ -156,7 +182,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729221362415</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add st_pytest code">
+      <option name="closed" value="true" />
+      <created>1729234428237</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729234428237</updated>
+    </task>
+    <task id="LOCAL-00007" summary="rename test_by_qequests.py to test_by_requests.py">
+      <option name="closed" value="true" />
+      <created>1729234601516</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729234601516</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,13 +206,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add st_pytest code" />
-    <option name="LAST_COMMIT_MESSAGE" value="add st_pytest code" />
+    <MESSAGE value="rename test_by_qequests.py to test_by_requests.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename test_by_qequests.py to test_by_requests.py" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/st_pytest$read_data.coverage" NAME="read_data 覆盖结果" MODIFIED="1729216566278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/read_config_file" />
     <SUITE FILE_PATH="coverage/st_pytest$pytest__test_fixture_py__.coverage" NAME="pytest (test_fixture.py 内) 覆盖结果" MODIFIED="1729144673304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_fixture" />
     <SUITE FILE_PATH="coverage/st_pytest$pytest__test_setup_class_py__.coverage" NAME="pytest (test_setup_class.py 内) 覆盖结果" MODIFIED="1729130369361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_setup_class" />
     <SUITE FILE_PATH="coverage/st_pytest$pytest__test_setup_function_py__.coverage" NAME="pytest (test_setup_function.py 内) 覆盖结果" MODIFIED="1729134195413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_setup_function" />
+    <SUITE FILE_PATH="coverage/st_pytest$pytest__test_setup_py__.coverage" NAME="pytest (test_setup.py 内) 覆盖结果" MODIFIED="1729237286057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/test_setup" />
+    <SUITE FILE_PATH="coverage/st_pytest$test_setup_TestSetup__pytest.coverage" NAME="test_setup.TestSetup 的 pytest 覆盖结果" MODIFIED="1729237855289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/test_setup" />
     <SUITE FILE_PATH="coverage/st_pytest$pytest__test_process_py__.coverage" NAME="pytest (test_process.py 内) 覆盖结果" MODIFIED="1729219322814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/test_multi-process" />
     <SUITE FILE_PATH="coverage/st_pytest$pytest__test_setup_method_py__.coverage" NAME="pytest (test_setup_method.py 内) 覆盖结果" MODIFIED="1729130521692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_setup_method" />
     <SUITE FILE_PATH="coverage/st_pytest$pytest__test_parametrize_py__.coverage" NAME="pytest (test_parametrize.py 内) 覆盖结果" MODIFIED="1729149732219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_parametrize" />
