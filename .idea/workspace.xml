@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c2bb4e6-c9a6-42dc-b99d-7f9cb8cb25a0" name="更改" comment="rename test_by_qequests.py to test_by_requests.py">
-      <change afterPath="$PROJECT_DIR$/testcase/test_setup/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcase/test_setup/test_setup.py" afterDir="false" />
+    <list default="true" id="4c2bb4e6-c9a6-42dc-b99d-7f9cb8cb25a0" name="更改" comment="add test_setup.py">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/test_fixture/test_fixture.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_fixture/test_fixture.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +138,7 @@
       <workItem from="1729145742622" duration="3000" />
       <workItem from="1729146039014" duration="6486000" />
       <workItem from="1729214047375" duration="9006000" />
-      <workItem from="1729231517909" duration="5875000" />
+      <workItem from="1729231517909" duration="9261000" />
     </task>
     <task id="LOCAL-00001" summary="add st_pytest code">
       <option name="closed" value="true" />
@@ -198,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729234601516</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add test_setup.py">
+      <option name="closed" value="true" />
+      <created>1729237957945</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1729237957945</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,11 +213,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add st_pytest code" />
     <MESSAGE value="rename test_by_qequests.py to test_by_requests.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename test_by_qequests.py to test_by_requests.py" />
+    <MESSAGE value="add test_setup.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test_setup.py" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/st_pytest$read_data.coverage" NAME="read_data 覆盖结果" MODIFIED="1729216566278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/read_config_file" />
-    <SUITE FILE_PATH="coverage/st_pytest$pytest__test_fixture_py__.coverage" NAME="pytest (test_fixture.py 内) 覆盖结果" MODIFIED="1729144673304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_fixture" />
+    <SUITE FILE_PATH="coverage/st_pytest$pytest__test_fixture_py__.coverage" NAME="pytest (test_fixture.py 内) 覆盖结果" MODIFIED="1729241169389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/test_fixture" />
     <SUITE FILE_PATH="coverage/st_pytest$pytest__test_setup_class_py__.coverage" NAME="pytest (test_setup_class.py 内) 覆盖结果" MODIFIED="1729130369361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_setup_class" />
     <SUITE FILE_PATH="coverage/st_pytest$pytest__test_setup_function_py__.coverage" NAME="pytest (test_setup_function.py 内) 覆盖结果" MODIFIED="1729134195413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_setup_function" />
     <SUITE FILE_PATH="coverage/st_pytest$pytest__test_setup_py__.coverage" NAME="pytest (test_setup.py 内) 覆盖结果" MODIFIED="1729237286057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase/test_setup" />

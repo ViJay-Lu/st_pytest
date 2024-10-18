@@ -11,6 +11,12 @@ fixture是pytest用于将测试前后进行预备、清理工作的代码机制�
 (scop="session") 多个文件调用一次
 
 作用范围：session > module > class > function
+
+scop:表示作用域
+params:参数化
+autouse:是否自动执行
+ids:当使用params参数化时，给每一个变量设置一个变量名、意义不大
+name:表示被@pytest@fixture标记的方法取别名
 """
 
 import requests
@@ -36,19 +42,33 @@ def test_equal(func):
 """
 
 #在整个py文件中调用一次
-@pytest.fixture(scope="module",autouse=True)
-def func():
-    print("this is fixture func")
+#
+#遇到的坑：当在窗口直接点击图标运行时，打印数据混乱，enter前置出现在了最后面
+#换成命令行方式运行则正常
+#
+@pytest.fixture(scope="function")
+def my_fixture():
+    print("enter my_fixture function\n")
+    #yield :后置
+    yield
+    print("exit my_fixture function\n")
 
-def test_req_get():
+def test_equal(my_fixture):
+    a = 2
+    b = 2
+    print('enter test_equal function\n')
+    assert a == b
+
+def test_req_get(my_fixture):
     params = {
         "shouji": "15823642154",
         "appkey": "54dsfsa5g456"
     }
     rsp = requests.get("http://sellshop.5istudy.online/sell/shouji/query", params=params)
     #rsp_json = rsp.json()
+    # assert rsp_json['msg'] == "ok"
+    print('enter test_req_get function\n')
     assert rsp.status_code == 200
-    #assert rsp_json['msg'] == "ok"
     assert rsp.json()["msg"] == "ok"
     assert rsp.json()["result"]["shouji"] == "15823642154"
 
@@ -64,10 +84,6 @@ def test_req_post():
     assert rsp_param.status_code == 200
     assert rsp_param.json()["msg"] == "ok"
 
-def test_equal():
-    a = 2
-    b = 2
-    assert a == b
 
 class TestFixture:
     def test_func(self):
