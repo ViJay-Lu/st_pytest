@@ -46,20 +46,26 @@ def test_equal(func):
 #遇到的坑：当在窗口直接点击图标运行时，打印数据混乱，enter前置出现在了最后面
 #换成命令行方式运行则正常
 #
+"""
+#挪到conftest.py
 @pytest.fixture(scope="function")
 def my_fixture():
     print("enter my_fixture function\n")
     #yield :后置
     yield
     print("exit my_fixture function\n")
+"""
 
-def test_equal(my_fixture):
+
+def test_equal(my_fixture_1,my_fixture):
     a = 2
     b = 2
     print('enter test_equal function\n')
     assert a == b
 
-def test_req_get(my_fixture):
+#运行顺序为传参顺序
+#如果不同目录的函数名相同，调用逻辑为就近原则
+def test_req_get(my_fixture_1,my_fixture):
     params = {
         "shouji": "15823642154",
         "appkey": "54dsfsa5g456"
