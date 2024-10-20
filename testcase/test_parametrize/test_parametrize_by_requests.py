@@ -7,6 +7,8 @@ import requests
 pythonpath = os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
 sys.path.insert(0, pythonpath)
 
+
+
 from read_config_file.read_data import read_data
 
 @pytest.mark.parametrize("shouji,appkey",read_data("mobile_params"))
